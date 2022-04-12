@@ -59,7 +59,6 @@ footer div article ul li a{
 .ligne{
     display: flex;
     justify-content:space-around;
-    align-items: center;
 }
 
 
