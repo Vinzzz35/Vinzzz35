@@ -18,49 +18,79 @@
 	</head>
 
     <body>
-        <header>
+        <header style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
             <a href="index.html">
                 <img src="images/logoRond.png" alt="Logo VG" title="Logo avec les initiales de Vincent Guéneuc" >
             </a>
+
+            <article> <a href="#presentation">Présentation</a></article>
+            <article><a href="#formation">Formations</a></article>
+            <article><a href="#competence">Compétences</a></article>
+            <article><a href="#langage">Langages</a></article>
+            <article><a href="#projet">Projets</a></article>
+            <article><a href="#parcours">Parcours Pro</a></article>
+            <article><a href="#interet">Centres d'intérêts</a></article>
             
         </header>
 
         <main>
-            <div class='ligne'>
-                <img src="images/pdp.jpg" alt="Pdp Vincent Guéneuc" title="Photo de profil de Vincent Guéneuc" >
-                <article>
-                    <h1>Vincent Gueneuc</h1>
+            <div style="display: flex;  align-items: center;">
+                <img style="margin-left: auto;" src="images/pdp.jpg" alt="Pdp Vincent Guéneuc" title="Photo de profil de Vincent Guéneuc" >
+                <article style="margin-left: 5%; margin-right: auto;">
+                    <h1>Vincent</h1> 
+                    <h1 style="margin-left: 50%;">gueneuc</h1>
                     <p>Etudiant en Bachelor Universitaire de Technologie Informatique</p>
                 </article>
                 
             </div>
 
-            <article class="Présentation">
-
+            <article style="display: inline; margin: 5%;">
+                <p id="presentation" style="text-align: center;">Etudiant de 18 ans, je suis en première année de BUT Informatique à <a href="https://iut-lannion.univ-rennes1.fr/">l'IUT de Lannion</a>. </br>
+                    Ceci est ma page personelle, vous y trouverez les formations que j'ai obtenues, mes compétences acquises, les langages que je maîtrise, mes projets informatiques réalisés, mon expérience professionelle ainsi que mes centres d'intérêt.</br>
+                    Je ne suis pas véhiculé mais je suis actuellement en apprentisage du permis B en boîte manuelle.</p>
+                <hr/>
             </article>
 
             <article>
-                <h2>Mes formations</h2>
+                <h2 id="formation">Mes formations</h2><hr/>
+                <ul>
+                    <li>2018 : Brevet des collèges - Collège public René Cassin à Cancale(35)</li>
+                    <li>2021 : Baccalauréat Général, spécialités Numérique et Sciences Informatiques et Mathématiques - Lycée Général et Technologique Maupertuis à Saint-Malo(35)</li>
+                    <li>2021-2022 : 1ère année de BUT Informatique - Institut Universitaire de Technologie de Lannion(22)</li>
+                </ul>
             </article>
 
             <article>
-                <h2>Mes competences</h2>
+                <h2 id="competence">Mes competences</h2><hr/>
             </article>
 
             <article>
-                <h2>Langages</h2>
+                <h2 id="langage">Langages maitrises</h2><hr/>
+                <ul class="liste">
+                    <li><img src="images/c.png" alt="Logo langage C" title="Logo du langage C" style="width: 25%;"> C :⭐⭐⭐⭐⭐</li>
+                    <li><img src="images/java.jpg" alt="Logo langage Java" title="Logo du langage Java" style="width: 25%;"> Java :⭐⭐⭐⭐</li>
+                    <li><img src="images/python.jpg" alt="Logo langage Python" title="Logo du langage Python" style="width: 25%;"> Python :⭐⭐⭐⭐⭐</li>
+                    <li><img src="images/html.png" alt="Logo langage HTML" title="Logo du langage HTML" style="width: 25%;"> HTML :⭐⭐⭐</li>
+                    <li><img src="images/css.jpg" alt="Logo langage CSS" title="Logo du langage CSS" style="width: 25%;"> CSS :⭐⭐</li>
+                    <li><img src="images/sql.jpg" alt="Logo langage SQL" title="Logo du langage SQL" style="width: 25%;"> SQl/Tutorial D :⭐⭐⭐</li>
+                </ul>
             </article>
 
             <article>
-                <h2>Mes Projets</h2>
+                <h2 id="projet">Mes Projets</h2><hr/>
             </article>
 
             <article>
-                <h2>Mon parcours professionel</h2>
+                <h2 id="parcours">Mon parcours professionel</h2><hr/>
             </article>
 
             <article>
-                <h2>Mes centres d'interet</h2>
+                <h2 id="interet">Mes centres d'interet</h2><hr/>
+                <ul style="display: flex;">
+                    <li><img src="images/basket.jpg" alt="Logo Ballon de Basket-Ball" title="Basket-Ball" width="10%">Basket-Ball</li>
+                    <li><img src="images/clap.png" alt="Logo Clap de Cinéma" title="Cinéma" width="10%">Cinéma</li>
+                    <li><img src="images/manette.png" alt="Logo Manette de Jeux-Vidéo" title="Jeux-Vidéo" width="10%">Jeux-Vidéo</li>
+                </ul>
             </article>
 
         </main>
@@ -71,18 +101,35 @@
                 <article>
                     <h4>Contact pro</h4>
                     <ul>
-                        <li>Mail universitaire :</li>
-                        <li>Linkedin :</li>
-                        <li>Télécharger mon CV :</li>
+                        <li>Mail universitaire : <a href="vincent.gueneuc@etudiant.univ-rennes1.fr">vincent.gueneuc@etudiant.univ-rennes1.fr</a></li>
+                        <li><a href="CV_VincentGueneuc.pdf">Télécharger mon CV</a></li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/vincent-gueneuc-916925230/">
+                            <img src="images/linkedin.png" alt="Logo LinkeDin" title="Mon LinkeDin" style="width: 10%;">
+                            </a>
+                        </li>
+                        
                     </ul>
                 </article>
                 <article>
                     <h4>Contact perso</h4>
                     <ul>
-                        <li>Twitter : </li>
-                        <li>Instagam : </li>
-                        <li>Mail perso :</li>
-                        <li>Discord :</li>
+                        <li>Mail perso : <a href="mailto:vincentgueneuc@gmail.com">vincentgueneuc@gmail.com</a></li>
+                        <li>
+                            <a href="https://twitter.com/vincentg35">
+                            <img src="images/twitter.png" alt="Logo Twitter" title="Mon Twitter" style="width: 10%;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vincent_gnc/?hl=fr">
+                            <img src="images/instagram.png" alt="Logo Instagram" title="Mon Instagram" style="width: 10%;">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discord.com/channels/@me">
+                            <img src="images/discord.png" alt="Logo Discord" title="Mon Discord" style="width: 10%;">Mon Tag Discord : Vinz'#6755
+                            </a>
+                        </li>
                     </ul>
                 </article>
             </div>

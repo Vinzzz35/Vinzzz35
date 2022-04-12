@@ -15,27 +15,76 @@
 body{
     background-color: #BFBFBF;
     font-family: 'Louis George Cafe';
+    color: #262223;
+}
+
+::selection{
+    background: #8C8C8C;
+}
+
+main{
+    padding: 5%;
 }
 
 header, footer{
+    padding: 1%;
     background-color: #262223;
     color: #F2F2F2;
+}
+
+a{
+    color: #262223;
 }
 
 header img{
     width: 125px;
 }
 
-footer div article{
-    border-left: 1px solid #F2F2F2; 
-    height: 200px; 
-    display: inline-block;;
+header article{
+    background-color: #F2F2F2;
+    color: #262223;
+    text-align: center;
+    padding: 1%;
+    border-radius: 25%;
+}
+
+header article a{
+    text-decoration: none;
+}
+
+footer div article ul li a{
+    color: #F2F2F2;
 }
 
 .ligne{
     display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+
+.liste{
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+
+li{
+    padding: 5px;
+}
+
+h1{
+    font-size: 5em;
 }
 
 h1, h2, h3, h4{
     font-family: 'Vogue';
+}
+
+hr{
+    color: #262223;
+}
+
+ul{
+    list-style: none;
 }
