@@ -32,6 +32,11 @@ header, footer{
     color: #F2F2F2;
 }
 
+.illustration{
+    background-color: #262223;
+    border-radius: 10%;
+    padding: 1%;
+}
 a{
     color: #262223;
 }
@@ -40,7 +45,7 @@ header img{
     width: 125px;
 }
 
-header article{
+.menu{
     background-color: #F2F2F2;
     color: #262223;
     text-align: center;
@@ -86,4 +91,20 @@ hr{
 
 ul{
     list-style: none;
+}
+
+@media screen and (min-width: 460px) and (max-width: 780px) {
+    .ligne{
+        flex-wrap: wrap;
+    }
+
+    footer div{
+        display: flex;
+        justify-content: start;
+    }
+
+    .menu{
+        display: none;
+    }
+    
 }
