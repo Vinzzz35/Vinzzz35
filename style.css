@@ -83,6 +83,10 @@ footer div article ul li a{
     margin-left: 50%;
 }
 
+.screen{
+    width: 500px;
+}
+
 li{
     padding: 5px;
 }
@@ -125,6 +129,10 @@ ul{
 
     .ligne{
         flex-wrap: wrap;
+    }
+
+    .screen{
+        width: 300px;
     }
 
     .liste{
