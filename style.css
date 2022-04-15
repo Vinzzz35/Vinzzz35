@@ -37,6 +37,12 @@ header, footer{
     border-radius: 10%;
     padding: 1%;
 }
+
+.profil{
+    display: flex;
+    align-items: center;
+}
+
 a{
     color: #262223;
 }
@@ -73,6 +79,10 @@ footer div article ul li a{
     flex-wrap: wrap;
 }
 
+.gueneuc{
+    margin-left: 50%;
+}
+
 li{
     padding: 5px;
 }
@@ -94,6 +104,25 @@ ul{
 }
 
 @media screen and (min-width: 460px) and (max-width: 780px) {
+
+    .profil{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .vincent{
+        margin-right: 25%;
+    }
+
+    .gueneuc{
+        margin-left: 15%;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
     .ligne{
         flex-wrap: wrap;
     }
