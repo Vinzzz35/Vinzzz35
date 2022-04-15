@@ -124,8 +124,11 @@ ul{
     }
 
     .ligne{
-        flex-direction: column-reverse;
         flex-wrap: wrap;
+    }
+
+    .liste{
+        align-items: center;
     }
 
     footer div{
