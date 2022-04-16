@@ -136,7 +136,13 @@ ul{
     }
 
     .liste{
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .liste li{
+        display: inline;
     }
 
     footer div{
