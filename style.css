@@ -152,12 +152,12 @@ ul{
         display: none;
     }
 
-    .open main{
+    .open main, .open footer{
         transform: translateY(650px);
         transition: transform 0.25s;
     }
 
-    main{
+    main, footer{
         transform: translateY(0);
         transition: transform 0.25s;
     }
