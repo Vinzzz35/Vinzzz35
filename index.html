@@ -13,6 +13,7 @@
         <meta name="author" content="Vincent Guéneuc" />
 
         <!-- Liens vers le fichier CSS de Bootstrap -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
 	</head>
@@ -23,7 +24,21 @@
                 <img src="images/logoRond.png" alt="Logo VG" title="Logo avec les initiales de Vincent Guéneuc" >
             </a>
 
-            <article class="menu"> <a href="#presentation">Présentation</a></article>
+            <div class="toggle">
+                <i class="fa-solid fa-bars ouvrir"></i>
+                <i class="fa-solid fa-xmark fermer"></i>
+            </div>
+            <ul class="burger">
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#formation">Formations</a></li>
+                <li><a href="#competence">Compétences</a></li>
+                <li><a href="#langage">Langages</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#parcours">Parcours Pro</a></li>
+                <li><a href="#interet">Centres d'intérêts</a></li>
+            </ul>
+
+            <article class="menu"><a href="#presentation">Présentation</a></article>
             <article class="menu"><a href="#formation">Formations</a></article>
             <article class="menu"><a href="#competence">Compétences</a></article>
             <article class="menu"><a href="#langage">Langages</a></article>
@@ -200,7 +215,6 @@
         </footer>
 
         <!-- JavaScript -->
-        <!-- jQuery, Popper.js, Bootstrap JS -->
-        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
